@@ -1,0 +1,12 @@
+img.thumb{
+    gap: 30px;
+    height:    400px;
+    width:     400px;
+    max-width: 400px;
+    max-height:400px;
+}.grid{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 50px;
+   
+}

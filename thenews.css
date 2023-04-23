@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+}
+
+body{
+    background-color:  rgb(218, 250, 236) ;
+}
+/*top-banner*/
+
+.top-banner{
+    padding: 50px;
+    background-image: url(./NEWS\ TODAY.png);
+    background-color: grey;
+}
+.top-banner-text{
+    text-align: center;
+    padding: 30px;
+    
+}
+
+/*language wali nav bar*/
+
+.languages ul {
+    background-color: red;
+    color: white;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    text-decoration: none;
+}
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration:double;
+}
+/*navbar home...etc.*/
+
+.navbar {
+    background-color: rgb(17, 16, 16);
+}
+
+.navbar ul{
+    overflow: auto;
+    list-style: none;
+}
+.navbar li a{
+
+    color: rgb(176, 237, 245);
+    float: left;
+    display: flex;
+    text-align: center;
+    margin: 3px 3px;
+    padding: 2px;
+    font-size: 20px;
+    display:flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+.navbar li a:hover{
+    background-color:rgb(232, 122, 122);
+}
+
+/*different  news section */
+
+.menu{
+    padding-left: 0px;
+    background: #519ac5fc;
+    
+}
+
+.menu-items{
+    display: flex;
+}
+.menu .menu-items a{
+    
+    color: black;
+    margin: 5px;
+    padding: 8px ;
+    display: flex;
+
+    }
+.menu .menu-items a:hover{
+    background-color:ghostwhite;
+}
+/*example-section*/
+a:-webkit-any-link {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-decoration: double;
+}
+.secondary-button{
+    color: #000000;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    color: #0b0b0b;
+    border: none;
+    border-radius: 5px;
+}
+.btn-outline{
+    background-color: transparent;
+    border: 1px #fff solid;
+}
+.btn:hover{
+    transform: scale(0.98);
+}
+
+.examples-header{
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+
+}
+.examples-area{
+    justify-content: space-between;
+    margin-block: 30px
+}
+.examples-card{
+margin-left: 50pt;
+position: relative;
+min-height: 300px;
+background-color: rgb(242, 197, 197);
+background:  url(news15.jpg);
+background-size: cover;
+}
+.examples-card:hover{
+    box-shadow: 0 0 10px royalblue;
+    transition: 0.2s ease-out;
+}
+.examples-card:nth-child(2){
+    background:linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)) ,   url(./news16.jpg);
+    background-size: cover; 
+}
+.examples-card:nth-child(3){
+    background:  linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)) ,url(./news2.jpg);
+    background-size: cover;
+}
+.examples-card:nth-child(4){
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)) , url(./news3.jpg);
+    background-size: cover;
+
+}
+.examples-card:nth-child(5){
+    background:linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)) ,   url(./news6.jpg);
+    background-size: cover; 
+}
+.examples-card:nth-child(6){
+    background:  linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)) ,url(./news17.jpeg);
+    background-size: cover;
+}
+.examples-card:nth-child(7){
+    background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)) , url(./news18.jpeg);
+    background-size: cover;
+}
+.examples-card:nth-child(8){
+    background:linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)) ,   url(./news8.jpg);
+    background-size: cover; 
+}
+
+.card-text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: white;
+}
+
+.grid {
+
+        display: grid;
+        grid-template-columns:repeat(4, 1fr) ;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+/* footer section*/
+footer{
+    margin-top: 254px;
+    padding-block: 10px;
+    background-color:#000000;
+}
+.flex {
+   
+    display: flex;
+    align-items: center;
+}
+ .link-column{
+   display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+   }
+
+   a.hover-link{
+    color: #fff;
+   }
+   
+    a.company-logo img{
+    width: 100px;
+}
+
+  .footer-container{
+   justify-content: center;
+    gap: 100px;
+    display: flex;
+    align-items: center;
+ }
+ h4{
+    color: antiquewhite;
+ }
+/*sub-footer*/
+.subfooter{
+    background-color:rgb(0 0 0);
+    padding: 5px;
+    flex-direction: row;
+}
+.subfooter-container{
+  justify-content: center;
+    gap: 30px;
+}
+.share-logo{
+    justify-content: center;
+    gap: 10px;
+}
+
+
