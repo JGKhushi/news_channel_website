@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+}
+body{
+    background-color: rgb(177, 212, 249);
+}
+.top-banner{
+    padding: 50px;
+    background-image: url(./NEWS\ TODAY.png);
+    background-color: grey;
+}
+.logo-wrapper{
+  display: flex;
+    text-align: center;
+    gap: 180px;
+    margin-top: 20px;
+}
+.to_visit{
+    text-align: center;
+}
+a:-webkit-any-link {
+    color: rgb(247, 68, 68);
+    cursor: grab;
+    text-decoration: underline;
+}
+
+.bubbles img{
+    width: 50px;
+    animation: bubble 6s linear infinite;
+}
+
+.bubbles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    
+}
+
+@keyframes bubble{
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+50%{
+   
+    opacity: 1;
+}
+70%{
+    
+    opacity: 1;
+}
+100%{
+    transform: translateY(-80vh);
+    opacity: 1;
+}
+}
+.bubbles img:nth-last-child(1){
+    animation-delay: 2s;
+    width: 25px;
+}
+.bubbles img:nth-last-child(2){
+    animation-delay: 1s;
+}
+.bubbles img:nth-last-child(3){
+    animation-delay: 3s;
+}
+.bubbles img:nth-last-child(4){
+    animation-delay: 1s;
+}
+.bubbles img:nth-last-child(5){
+    animation-delay: 2.5s;
+}
+.bubbles img:nth-last-child(6){
+    animation-delay: 5s;
+    width: 30px;
+}
+.bubbles img:nth-last-child(7){
+    animation-delay: 3.5s;
+    width: 50px;
+}
